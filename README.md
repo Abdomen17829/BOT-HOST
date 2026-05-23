@@ -64,7 +64,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # Configure environment
-touch .env && nano .env
+nano .env
 # Edit .env with your credentials
 ```
 
@@ -219,9 +219,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 <div align="center">
 
-[![Telegram](https://img.shields.io/badge/Telegram-@SityStar-2CA5E0?logo=telegram&logoColor=white)](https://t.me/SityStar)
-[![Email](https://img.shields.io/badge/Email-contact@sitystar.com-red?logo=gmail&logoColor=white)](mailto:contact@sitystar.com)
-[![Website](https://img.shields.io/badge/Website-sitystar.com-blue?logo=google-chrome&logoColor=white)](https://sitystar.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-+201066739257-25D366?logo=whatsapp&logoColor=white)](https://wa.me/201066739257)
+[![Email](https://img.shields.io/badge/Email-abdo138esmail@gmail.com-D14836?logo=gmail&logoColor=white)](mailto:abdo138esmail@gmail.com)
+[![Website](https://img.shields.io/badge/Website-abdodevweb.netlify.app-1488C6?logo=netlify&logoColor=white)](https://abdodevweb.netlify.app/)
 
 </div>
 
