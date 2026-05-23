@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -i 's|git clone https://github.com/yourusername/sitystar-ai-commander.git|git clone https://github.com/Abdomen17829/BOT-HOST.git|g' README.md)",
+      "Bash(sed -i 's|cd sitystar-ai-commander|cd BOT-HOST|g' README.md)",
+      "Bash(sed -i 's|cp .env.example .env|touch .env \\\\&\\\\& nano .env|g' README.md)",
+      "Bash(python3 -m py_compile bot.py config.py)",
+      "Bash(python3 -m py_compile handlers/start.py handlers/dashboard.py handlers/upload.py handlers/settings.py)",
+      "Bash(python3 -m py_compile services/database.py services/dynamic_db.py services/dynamic_hosting.py services/ai_factory.py services/seo_engine.py services/encryption.py services/local_store.py utils/locales.py)",
+      "Bash(py --version)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('handlers/start.py'\\).read\\(\\)\\)\")",
+      "Bash(python -c \"import ast; [ast.parse\\(open\\(f\\).read\\(\\)\\) for f in ['handlers/start.py', 'handlers/dashboard.py', 'handlers/upload.py', 'handlers/settings.py', 'services/database.py', 'services/dynamic_db.py', 'services/dynamic_hosting.py', 'services/ai_factory.py', 'services/seo_engine.py', 'services/encryption.py', 'services/local_store.py', 'utils/locales.py', 'bot.py', 'config.py']]\")"
+    ]
+  }
+}

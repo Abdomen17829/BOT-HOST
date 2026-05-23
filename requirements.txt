@@ -1,0 +1,12 @@
+aiogram>=3.4.1
+supabase>=2.3.4
+google-genai>=0.2.2
+beautifulsoup4>=4.12.3
+aiohttp>=3.9.3
+python-dotenv>=1.0.1
+cryptography>=42.0.5
+motor>=3.3.2
+firebase-admin>=6.5.0
+openai>=1.14.0
+patool>=2.2.0
+py7zr>=0.21.0

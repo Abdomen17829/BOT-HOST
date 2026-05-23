@@ -1,0 +1,1 @@
+SityStar AI Commander - Deploy static websites via Telegram with AI-powered SEO analysis. Supports Netlify/Vercel hosting, multiple databases (Supabase/MongoDB/Firebase), and multilingual support.

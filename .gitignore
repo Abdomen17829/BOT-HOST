@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+tmp_*/
+data/
+*final.zip
+upload.zip
+repo.zip
